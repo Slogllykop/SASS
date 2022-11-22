@@ -1,0 +1,16 @@
+$font-weights : (
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
+
+$font-weights : map-merge($font-weights, (
+    "extra-bold": 800
+));
+
+$primary-color : #aaa;
+$secondary-color: black;
+$accent-color: aquamarine;
+
+$mobile: 800px;
